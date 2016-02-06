@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App_Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_one">Submit</string>
+</resources>
