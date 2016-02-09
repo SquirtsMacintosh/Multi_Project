@@ -21,7 +21,9 @@
         android:id="@+id/logIn"
         android:layout_marginBottom="77dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="confirmSubmission"
+        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,7 +33,8 @@
         android:id="@+id/userName"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:hint="Username" />
+        android:hint="Username"
+        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -42,6 +45,7 @@
         android:layout_below="@+id/userName"
         android:layout_alignLeft="@+id/userName"
         android:layout_alignStart="@+id/userName"
-        android:hint="********" />
+        android:hint="********"
+        />
 
 </RelativeLayout>
