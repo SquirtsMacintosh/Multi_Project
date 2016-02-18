@@ -1,6 +1,6 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'underinfo'); // defining all of the db variables
+define('DB_NAME', 'userinfo'); // defining all of the db variables
 define('DB_USER','root');
 define('DB_PASSWORD','root');
 
