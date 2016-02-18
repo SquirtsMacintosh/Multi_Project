@@ -1,5 +1,10 @@
+//makes sure the username/password is at least 3 chars long
 function UserPass(){
   var username = document.getElementById('Username').value;
   var password = document.getElementById('Password').value;
-  alert(password);
+  if ((username.length || password.length) < 3) {
+    alert("Your username and password should be at least 3 characters long");
+  } else  {
+    window.location.href = "main.html"; // redirects to the main page
+  }
 }
