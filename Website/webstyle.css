@@ -8,3 +8,7 @@ More to be added later
 body {
   background-color:#6699CC;
 }
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+}

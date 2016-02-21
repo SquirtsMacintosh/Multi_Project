@@ -4,8 +4,11 @@
 <head>
   <link rel="stylesheet" type="text/css" href="webstyle.css">
 </head>
-<title>QuickAce page 2</title>
-<h1>
-This page is reached after a successful log-in.
+<title>QuickAce</title>
+<div align=center>
+  <img src="logo.png">
+</div>
+<h1 align="center">
+Content to be added soon!!
 </h1>
 </html>

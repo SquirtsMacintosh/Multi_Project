@@ -4,7 +4,8 @@
 </head>
 
 <!--cells for logging in, will need php, javascript and mySQL for background on this-->
-<div id="user_info" align="left">
+<div id="user_info" align="center">
+<img src="logo.png">
 <form method="POST" action="checkuser.php">
   Username:<br>
   <input type="text" name="myUsername"></input><br>
