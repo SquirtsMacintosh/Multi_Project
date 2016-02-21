@@ -11,6 +11,7 @@
   Password:<br>
   <input type="text" name="myPassword"></input><br>
   <input id="button" type="submit" name="submit" value="Log-In"></input><br>
+  <a href=createaccountPage.php>Create an Account Now!</a>
 </form>
 </div>
 </html>

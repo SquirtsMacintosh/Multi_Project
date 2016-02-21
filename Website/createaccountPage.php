@@ -2,20 +2,15 @@
 <head>
   <link rel="stylesheet" type="text/css" href="webstyle.css">
 </head>
-<title>Create QuickAce Account</title>
-<h1 align="center">Create an Account</h1>
-<body align="center">
 <div id="create_account">
 <form method="POST" action="createaccount.php">
   Create Username:<br>
-  <input type="text" name="user"><br>
+  <input type="text" name="myUser"><br>
   Email:<br>
-  <input type="text" name="email"><br>
-  Password:<br>
-  <input type="text" name="pass"><br>
-  Confirm Password:<br>
-  <input type="text" name="confirmpass"><br>
-  <input id="button2" type="submit" name="submit2" value="Log-In"><br>
+  <input type="text" name="myEmail"><br>
+  Enter Password:<br>
+  <input type="text" name="myPass"><br>
+  <input id="button" type="submit" name="submit2" value="Log-In"><br>
 </form>
 </div>
 <body>

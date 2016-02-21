@@ -8,3 +8,5 @@ function UserPass(){
     window.location.href = "main.html"; // redirects to the main page
   }
 }
+
+//makes sure the two passwords are the same on create account page
