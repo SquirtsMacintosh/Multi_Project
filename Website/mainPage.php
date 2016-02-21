@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!-- This page will be reached after a successful log in-->
 <html>
 <head>

@@ -1,5 +1,3 @@
-<!DOCTYPE=html>
-<!-- This page will be reached if the user needs to create an accout -->
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="webstyle.css">
