@@ -10,13 +10,13 @@ $link=mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME)
 
 //adds created user data into database
 $sql = "INSERT INTO `info`(`username`, `password`, `email`) VALUES
-  ($_POST[myUser], $_POST[myPass], $_POST[myEmail])";
+  ('$_POST[myUser]', '$_POST[myPass]', '$_POST[myEmail]')";
 
 $query = mysqli_query($link,$sql) or die("Cannot retrieve data ");
 
 //check to see if the data was inserted into the db
 if ($query) {
-  echo "Successfully inserted data";
+  header("location:mainPage.php");
 } else {
   echo "Unsuccessfully insterted data";
 }
