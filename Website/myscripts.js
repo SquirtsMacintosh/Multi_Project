@@ -22,3 +22,5 @@ function samePass () {
     alert("Your passwords do not match!");
   }
 }
+
+//makes sure the fields are not empty

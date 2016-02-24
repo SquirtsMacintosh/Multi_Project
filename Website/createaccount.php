@@ -16,9 +16,9 @@ $query = mysqli_query($link,$sql) or die("Cannot retrieve data ");
 
 //check to see if the data was inserted into the db
 if ($query) {
-  header("location:mainPage.php");
+  header("location:loginPage.php");
 } else {
-  echo "Unsuccessfully insterted data";
+  header("location:createaccountPage.php");
 }
 
 //mysql_close() or die("Failed to close mysql connection");

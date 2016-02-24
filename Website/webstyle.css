@@ -6,9 +6,25 @@ More to be added later
 ***************************/
 
 body {
-  background-color:#6699CC;
+  background-color:#9C9C9C;
 }
+
 input[type=text] {
-    background-color: #3CBC8D;
+    background-color: #79B2F2;
     color: white;
+}
+
+#button {
+    text-align:center;
+    background-color: #79B2F2;
+    border: none;
+    color: white;
+    padding: 15px 65px;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+}
+
+#inlineinput div {
+  display: inline;
 }

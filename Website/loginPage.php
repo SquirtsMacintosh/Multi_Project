@@ -2,17 +2,22 @@
 <head>
 <link rel="stylesheet" type="text/css" href="webstyle.css">
 </head>
-
-<!--cells for logging in, will need php, javascript and mySQL for background on this-->
-<div id="user_info" align="center">
-<img src="logo.png">
-<form method="POST" action="checkuser.php">
-  Username:<br>
-  <input type="text" name="myUsername"></input><br>
-  Password:<br>
-  <input type="text" name="myPassword"></input><br>
-  <input id="button" type="submit" name="submit" value="Log-In"></input><br>
-  <a href=createaccountPage.php>Create an Account Now!</a>
-</form>
+<div align="center">
+  <img id="logo" src="logo.png">
 </div>
+<div id="user_info" align="center">
+<form method="POST" action="checkuser.php">
+  <span id="inlineinput">
+    Username:
+    <input type="text" name="myUsername" required></input>
+  </span>
+  <span id="inlineinput">
+    Password:
+    <input type="text" name="myPassword" required></input> <br><br>
+  </span>
+  <input id="button" type="submit" name="submit" value="Log-In"></input>
+</form>
+<form action="createaccountPage.php">
+  <button id="button" type="submit">Create</button>
+</form>
 </html>
