@@ -7,17 +7,12 @@
 </div>
 <div id="user_info" align="center">
 <form method="POST" action="checkuser.php">
-  <span id="inlineinput">
-    Username:
-    <input type="text" name="myUsername" required></input>
-  </span>
-  <span id="inlineinput">
-    Password:
-    <input type="text" name="myPassword" required></input> <br><br>
-  </span>
+  <h1 id="logtext">Log In</h1>
+    <input type="text" name="myUsername" placeholder="username" required="required"></input>
+    <input type="text" name="myPassword" placeholder="password" required="required"></input> <br><br>
   <input id="button" type="submit" name="submit" value="Log-In"></input>
-</form>
-<form action="createaccountPage.php">
-  <button id="button" type="submit">Create</button>
+  <form action="createaccountPage.php">
+    <button id="button" type="submit">Create</button>
+  </form>
 </form>
 </html>

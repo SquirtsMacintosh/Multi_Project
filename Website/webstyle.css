@@ -10,8 +10,7 @@ body {
 }
 
 input[type=text] {
-    background-color: #79B2F2;
-    color: white;
+    background-color: #ffffff;
 }
 
 #button {
@@ -19,7 +18,7 @@ input[type=text] {
     background-color: #79B2F2;
     border: none;
     color: white;
-    padding: 15px 65px;
+    padding: 15px 45px;
     text-decoration: none;
     display:inline-block;
     font-size: 14px;
@@ -27,4 +26,8 @@ input[type=text] {
 
 #inlineinput div {
   display: inline;
+}
+
+#logtext {
+  color: #ffffff;
 }
