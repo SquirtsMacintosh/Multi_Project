@@ -20,7 +20,7 @@
   <label>Retype Password:</label>
   <input class="createIn" type="password" name="samePass" required><br><br>
 
-  <input id="button" type="submit" name="submit2" value="Log-In">
+  <input id="button" type="submit" name="submit2" value="Create">
   <button id = "button" onclick="window.location='loginPage.php'" type="submit">Back</button>
 </form>
 </div>
