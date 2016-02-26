@@ -7,18 +7,21 @@
 </div>
 <div id="create_account" align="center">
 <form method="POST" action="createaccount.php">
-  Create Username:<br>
-  <input type="text" name="myUser" required><br>
-  Email:<br>
-  <input type="text" name="myEmail" required><br>
-  Enter Password:<br>
-  <input type="text" name="myPass" required><br>
-  Retype Password:<br>
-  <input type="text" name="samePass" required><br><br>
-  <input id="button" type="submit" name="submit2" value="Log-In"><br>
-</form>
-<form action="loginPage.php">
-  <button id = "button" type="submit">Back</button>
+
+  <label>Create Username:</label>
+  <input class="createIn" type="text" name="myUser" required><br><br>
+
+  <label>Email:</label>
+  <input class="createIn" type="text" name="myEmail" required><br><br>
+
+  <label>Enter Password:</label>
+  <input class="createIn" type="text" name="myPass" required><br><br>
+
+  <label>Retype Password:</label>
+  <input class="createIn" type="text" name="samePass" required><br><br>
+
+  <input id="button" type="submit" name="submit2" value="Log-In">
+  <button id = "button" onclick="window.location='loginPage.php'" type="submit">Back</button>
 </form>
 </div>
 <body>

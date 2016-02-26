@@ -24,10 +24,20 @@ input[type=text] {
     font-size: 14px;
 }
 
-#inlineinput div {
-  display: inline;
-}
-
 #logtext {
   color: #ffffff;
+}
+
+label {
+  display: inline-block;
+  float: center;
+  clear:left;
+  width: 200px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.createIn {
+  display: inline-block;
+  float: center;
 }

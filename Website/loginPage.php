@@ -11,8 +11,7 @@
     <input type="text" name="myUsername" placeholder="username" required="required"></input>
     <input type="text" name="myPassword" placeholder="password" required="required"></input> <br><br>
   <input id="button" type="submit" name="submit" value="Log-In"></input>
-  <form action="createaccountPage.php">
-    <button id="button" type="submit">Create</button>
-  </form>
+  <button id="button" onclick="window.location='createaccountPage.php'">Create</button>
 </form>
+</div>
 </html>
