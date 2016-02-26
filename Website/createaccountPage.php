@@ -15,10 +15,10 @@
   <input class="createIn" type="text" name="myEmail" required><br><br>
 
   <label>Enter Password:</label>
-  <input class="createIn" type="text" name="myPass" required><br><br>
+  <input class="createIn" type="password" name="myPass" required><br><br>
 
   <label>Retype Password:</label>
-  <input class="createIn" type="text" name="samePass" required><br><br>
+  <input class="createIn" type="password" name="samePass" required><br><br>
 
   <input id="button" type="submit" name="submit2" value="Log-In">
   <button id = "button" onclick="window.location='loginPage.php'" type="submit">Back</button>
