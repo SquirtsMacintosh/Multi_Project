@@ -1,4 +1,9 @@
 <?php
+
+if (!session_id()) {
+  session_start();
+}
+
 define('DB_HOST','localhost');
 define('DB_NAME','userinfo');
 define('DB_USER','root');
@@ -15,7 +20,9 @@ $hash = $col->password;
 //verifies that our password was correct
 if (password_verify($_POST['myPassword'], $hash)) {
   //success
+  $_SESSION["active"] = 'true';
   header("location:mainPage.php");
+  die();
 } else {
   echo "Your username or password were incorrect!";
 }

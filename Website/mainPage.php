@@ -1,5 +1,4 @@
-
-<!-- This page will be reached after a successful log in-->
+<?php include 'sessionchecker.php' ?>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="webstyle.css">
