@@ -10,6 +10,8 @@ define('DB_USER','root');
 define('DB_PASSWORD','root');
 $link = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME) or die("Failed Connecting to database!");
 
+//$user = $_POST['myUsername'];
+
 //grabs the hash from the db to verify against the password
 $sql = "SELECT password FROM info WHERE username='$_POST[myUsername]'";
 $result = mysqli_query($link, $sql);

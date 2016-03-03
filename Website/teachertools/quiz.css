@@ -1,0 +1,12 @@
+
+body {
+  background-color:#9c9c9c;
+}
+
+label {
+  display: inline-block;
+  float: center;
+  clear: left;
+  width: 150px;
+  text-align: left;
+}

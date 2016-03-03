@@ -14,7 +14,7 @@
 </div>
 <div class="teacher_tools" align="left">
 <ul>
-  <li> <a href="teachertools/quizController.php"> Quizzes </a></li>
+  <li> <a href="teachertools/quizController.php"> Add Quizzes </a></li>
   <li> <a href="teachertools/gradebook.php"> Quiz Gradebook </a></li>
   <li> <a href="teachertools/courseManager.php"> Course Management </a></li>
 </ul>

@@ -1,10 +1,12 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <script src="res/parsley.min.js"></script>
 </head>
 <div align="center">
   <img src="logo.png">
 </div>
+
 <div id="create_account" align="center">
 <form method="POST" action="createaccount.php">
 
