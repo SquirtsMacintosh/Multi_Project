@@ -1,7 +1,7 @@
 <?php include 'sessionchecker.php' ?>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <link rel="stylesheet" type="text/css" href="style/webstyle.css">
 </head>
 <title>QA Teacher</title>
 <h1 align="center">

@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="webstyle.css">
+<link rel="stylesheet" type="text/css" href="style/webstyle.css">
 </head>
 <div align="center">
   <img id="logo" src="logo.png">
