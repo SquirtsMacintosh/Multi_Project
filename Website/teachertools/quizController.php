@@ -17,8 +17,7 @@
   <form method="POST" action="../logout.php">
     <button type="submit">Log Out</button>
   </form>
-</div>
-<br><br>
+</div><br><br>
 <div class="date-container" align="center">
   <label>Date</label>
   <input id="datepicker" class="quiz-date" type="text"></input><br><br>
@@ -27,14 +26,10 @@
   <label>Quiz Name</label>
   <input class="quiz-name" type="text"></input><br><br><br><br>
   <div id="container">
-  </div>
-  <br><br>
-  <input class="button" id="add-q-button" type="button" name="add" value="+"></input>
-  <br><br><br>
-
+  </div><br><br>
+  <input class="button" id="add-q-button" type="button" name="add" value="+"></input><br><br><br>
   <input class="button" type="submit" name="back" onclick="window.location='../mainPage.php'" value="BACK"></input>
   <input class="button" type="button" name="submit" value="SUBMIT"></input>
-
 </div>
 <script type="text/javascript">
   $(document).on('click', '#add-q-button', function()
