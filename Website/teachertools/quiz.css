@@ -3,10 +3,29 @@ body {
   background-color:#9c9c9c;
 }
 
+#container {
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.button {
+    text-align:center;
+    background-color: #79B2F2;
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+}
+
+
+
 label {
   display: inline-block;
   float: center;
   clear: left;
   width: 150px;
   text-align: left;
+  color: #ffffff;
 }

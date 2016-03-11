@@ -8,9 +8,9 @@
   Teacher Tools
 </h1>
 <div class="logout" align="right">
-<form method="POST" action="logout.php">
-<button type="submit">Log Out</button>
-</form>
+  <form method="POST" action="logout.php">
+    <button type="submit">Log Out</button>
+  </form>
 </div>
 <div class="teacher_tools" align="left">
 <ul>
