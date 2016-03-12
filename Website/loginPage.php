@@ -3,10 +3,10 @@
 <link rel="stylesheet" type="text/css" href="style/webstyle.css">
 </head>
 <div align="center">
-  <img id="logo" src="logo.png">
+  <img id="logo" src="res/logo.png">
 </div>
 <div id="user_info" align="center">
-<form method="POST" action="checkuser.php">
+<form method="POST" action="php/checkuser.php">
   <h1 id="logtext">Log In</h1>
     <input type="text" name="myUsername" placeholder="username" required="required"></input>
     <input type="password" name="myPassword" placeholder="password" required="required"></input> <br><br>

@@ -12,7 +12,7 @@
 
    <!--*********** Form for creating a user ***********-->
    <div id="create-accounts" class="form-container">
-      <form method="POST" action="createaccount.php" align=center data-parsley-validate>
+      <form method="POST" action="php/createaccount.php" align=center data-parsley-validate>
          <div style="list-style-type:none" class="flex-user">
             <div class="username-input">
                <label>Create Username:</label>

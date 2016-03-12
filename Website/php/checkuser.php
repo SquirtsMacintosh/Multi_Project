@@ -21,7 +21,7 @@ $hash = $col->password;
 if (password_verify($_POST['myPassword'], $hash)) {
   //success
   $_SESSION["active"] = 'true';
-  header("location:mainPage.php");
+  header("location:../mainPage.php");
   die();
 } else {
   // will need to comment out and let js worry about this
