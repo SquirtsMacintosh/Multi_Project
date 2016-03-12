@@ -7,7 +7,7 @@
    </head>
 
    <div align="center">
-      <img src="res/logo.png">
+      <img src="res/QA_logo.png">
    </div>
 
    <!--*********** Form for creating a user ***********-->

@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="style/webstyle.css">
 </head>
 <div align="center">
-  <img id="logo" src="res/logo.png">
+  <img id="logo" src="res/QA_logo.png">
 </div>
 <div id="user_info" align="center">
 <form method="POST" action="php/checkuser.php">
