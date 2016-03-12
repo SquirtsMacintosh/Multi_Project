@@ -27,9 +27,9 @@
   <input class="quiz-name" type="text"></input><br><br><br><br>
   <div id="container">
   </div><br><br>
-  <input class="button" id="add-q-button" type="button" name="add" value="+"></input><br><br><br>
-  <input class="button" type="submit" name="back" onclick="window.location='../mainPage.php'" value="BACK"></input>
-  <input class="button" type="button" name="submit" value="SUBMIT"></input>
+  <input class="myButton" id="add-q-button" type="button" name="add" value="+"></input><br><br><br>
+  <input class="myButton" type="submit" name="back" onclick="window.location='../mainPage.php'" value="BACK"></input>
+  <input class="myButton" type="button" name="submit" value="SUBMIT"></input>
 </div>
 <script type="text/javascript">
   $(document).on('click', '#add-q-button', function()

@@ -7,7 +7,7 @@
    </head>
 
    <div align="center">
-      <img src="logo.png">
+      <img src="res/logo.png">
    </div>
 
    <!--*********** Form for creating a user ***********-->
@@ -38,8 +38,8 @@
             </div>
          </div>
          <div class="button-container" align="center">
-            <input id="button" type="submit" name="submit2" value="Create">
-            <button id="button" onclick="window.location='loginPage.php'" type="submit">Back</button>
+            <input class="myButton" type="submit" name="submit2" value="Create">
+            <button class="myButton" onclick="window.location='loginPage.php'" type="submit">Back</button>
          </div>
          <div class="clearfix"></div>
          <div class="errors"><ul class="error-list"></ul></div>
