@@ -9,6 +9,10 @@ body {
   background-color:#757375;
 }
 
+::-webkit-input-placeholder {
+  color: #757375;
+}
+
 input[type=text] {
     background-color: #ffffff;
 }
