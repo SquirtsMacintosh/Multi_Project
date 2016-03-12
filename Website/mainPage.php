@@ -12,11 +12,14 @@
     <button type="submit">Log Out</button>
   </form>
 </div>
-<div class="teacher_tools" align="left">
-<ul>
-  <li><a href="../teachertools/quizPage.php"> Add Quizzes </a></li>
-  <li><a href="../teachertools/gradebookPage.php"> Quiz Gradebook </a></li>
-  <li><a href="../teachertools/courseManagerPage.php"> Course Management </a></li>
+<div class="teacher_tool" align="left">
+<ul class ="teacher_tools">
+  <li><a class="active" href="mainPage.php">Main</a></li>
+  <li><a href="../teachertools/quizPage.php">Add Quizzes</a></li>
+  <li><a href="../teachertools/gradebookPage.php">Quiz Gradebook</a></li>
+  <li><a href="../teachertools/courseManagerPage.php"> Course Management</a></li>
+  <li><a href="../aboutPage.php">About</a></li>
+  <li><a href="../contactPage.php">Support</a></li>
 </ul>
 </div>
 <div class="current_quizzes" align="center">
