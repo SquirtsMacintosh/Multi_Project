@@ -62,7 +62,12 @@ label {
   margin: 0;
   width: 200px;
   background-color: #dbdbdb;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
+
+
 
 li a {
   display: block;

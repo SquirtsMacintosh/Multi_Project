@@ -10,14 +10,7 @@
     });
   </script>
 </head>
-<div class="header-info" align="center">
-  <h1 style="color: #ffffff">Add a New Quiz Below</h1>
-</div>
-<div class="logout-button" align="right">
-  <form method="POST" action="../php/logout.php">
-    <button type="submit">Log Out</button>
-  </form>
-<div class="teacher_tool" align="left">
+
 <ul class ="teacher_tools">
   <li><a href="../mainPage.php">Main</a></li>
   <li><a class="active" href="../teachertools/quizPage.php">Add Quizzes</a></li>
@@ -26,8 +19,17 @@
   <li><a href="../aboutPage.php">About</a></li>
   <li><a href="../contactPage.php">Support</a></li>
 </ul>
+
+<div class="header-info" align="center">
+  <h1 style="color: #ffffff">Add a New Quiz Below</h1>
 </div>
-</div><br><br>
+<div class="logout-button" align="right">
+  <form method="POST" action="../php/logout.php">
+    <button type="submit">Log Out</button>
+  </form>
+</div>
+
+<br><br>
 <div class="date-container" align="center">
   <label>Date</label>
   <input id="datepicker" class="quiz-date" type="text"></input><br><br>
