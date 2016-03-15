@@ -1,3 +1,4 @@
+<html>
 <head>
   <link rel="stylesheet" type="text/css" href="../style/webstyle.css">
 </head>
@@ -14,3 +15,5 @@
     <button type="submit">Log Out</button>
   </form>
 </div>
+<h1>Course Manager</h1>
+</html>

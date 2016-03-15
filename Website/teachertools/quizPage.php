@@ -4,6 +4,7 @@
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <link rel="stylesheet" type="text/css" href="../style/quiz.css">
+  <link rel="stylesheet" type="text/css" href="../style/webstyle.css">
   <script>
     $(function() {
       $( "#datepicker" ).datepicker();
@@ -24,7 +25,7 @@
   </form>
 </div>
 <div class="header-info" align="center">
-  <h1 style="color: #ffffff">Add a New Quiz Below</h1>
+  <h1>Add a Quiz</h1>
 </div><br><br>
 <div class="date-container" align="center">
   <label>Date</label>
