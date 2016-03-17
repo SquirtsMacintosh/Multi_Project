@@ -20,5 +20,6 @@
 <h1 align="center">
   Teacher Tools
 </h1>
+<div class="new-links" align="right"><a href="docs/addquizDoc.php">Click here for Bootstrap!</a></div>
 <div class="current-quizzes"></div>
 </html>
