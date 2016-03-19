@@ -44,7 +44,7 @@
     <input class="quiz-name" type="text"></input><br><br><br><br>
     <div id="container">
     </div><br><br>
-    <input class="myButton" id="add-q-button" type="button" name="add" value="+"></input><br><br><br>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span>Add</button><br><br><br>
     <input class="myButton" type="submit" name="back" onclick="window.location='../mainPage.php'" value="BACK"></input>
     <input class="myButton" type="button" name="submit" value="SUBMIT"></input>
   </div>

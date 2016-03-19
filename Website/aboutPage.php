@@ -24,8 +24,10 @@
           <li role="presentation"><a href="../teachertools/courseManagerPage.php"> Course Management</a></li>
           <li role="presentation"><a href="../contactPage.php">Support</a></li>
         </ul>
-        <h1>About Q + A</h1>
-        <p align="center">
+        <h1>Q + A</h1>
+        <div class="panel panel-info col-lg-10 col-md-10 col-sm-10">
+          <div class="panel-heading">Who We Are</div>
+          <div class="panel-body">
           Waistcoat truffaut hella messenger bag crucifix. Blue bottle roof party pabst lo-fi,
           messenger bag you probably haven't heard of them fashion axe everyday carry listicle
           portland 90's. Bicycle rights pitchfork waistcoat salvia normcore mixtape.
@@ -52,7 +54,8 @@
         dollar toast ennui kinfolk microdosing street art fingerstache fap. Pop-up sustainable ugh,
         farm-to-table kale chips yuccie VHS authentic crucifix keytar. Post-ironic echo park farm-to-table,
         mustache migas twee hella. Helvetica roof party vice before they sold out normcore gochujang.
-        </p>
+      </div>
+      </div>
       </div>
     </div>
   </div>

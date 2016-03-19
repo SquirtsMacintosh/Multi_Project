@@ -1,1 +1,7 @@
+body {
+  background-color: #757375;
+}
 
+.nav.nav-stacked li a {
+  color: black;
+}

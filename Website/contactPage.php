@@ -10,7 +10,7 @@
       <div class="container-fluid">
         <div class="btn-group pull-right" role="group">
           <button type="button" class="btn btn-default">Docs</button>
-          <button type="button" class="btn btn-default">About</button>
+          <button type="button" class="btn btn-default" onclick="window.location='aboutPage.php'">About</button>
           <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-vertical"></span>USERNAME</button>
         </div>
       </div>
@@ -24,8 +24,10 @@
           <li role="presentation"><a href="../teachertools/courseManagerPage.php"> Course Management</a></li>
           <li role="presentation"><a href="../contactPage.php">Support</a></li>
         </ul>
-        <h1>Contact Us / Support</h1>
-        <p>
+        <h1>Support</h1>
+        <div class="panel panel-info col-lg-10 col-md-10 col-sm-10">
+          <div class="panel-heading">How to Reach out</div>
+          <div class="panel-body">
           Kitsch asymmetrical portland viral disrupt kickstarter. Tote bag organic banjo,
           wolf gastropub tattooed ugh VHS stumptown cold-pressed farm-to-table.
            Keffiyeh wayfarers pork belly occupy, shoreditch paleo migas lo-fi crucifix franzen
@@ -39,7 +41,8 @@
         juice put a bird on it cardigan polaroid sriracha beard taxidermy. Cornhole echo park
         fingerstache lo-fi, slow-carb scenester migas. Tofu street art freegan, cornhole hoodie letterpress
         lomo 3 wolf moon. Kickstarter blog viral, 8-bit biodiesel distillery celiac taxidermy.
-        </p>
+      </div>
+      </div>
       </div>
     </div>
   </div>
