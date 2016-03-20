@@ -10,7 +10,13 @@
     <div class="row">
       <div class="container-fluid">
         <div class="btn-group pull-right" role="group">
-          <button type="button" class="btn btn-default">Docs</button>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Docs <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="docs/addquizDoc.php"></a>Quizzes</li>
+              <li><a href="docs/coursemanagementDoc.php"></a>Courses</li>
+              <li><a href="docs/gradebookDoc.php"></a>Grades</li>
+            </ul>
           <button type="button" class="btn btn-default" onclick="window.location='../aboutPage.php'">About</button>
           <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-vertical"></span>USERNAME</button>
         </div>
