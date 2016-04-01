@@ -1,8 +1,8 @@
 <?php include 'php/sessionchecker.php' ?>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="../res/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../res/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="style/css" href="../res/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="style/css" href="../style/newStyle.css">
   </head>
@@ -10,15 +10,17 @@
     <div class="row">
       <div class="container-fluid">
         <div class="btn-group pull-right" role="group">
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Docs <span class="caret"></span></button>
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Docs<span class="caret"></span></button>
             <ul class="dropdown-menu">
-              <li><a href="docs/addquizDoc.php"></a>Quizzes</li>
-              <li><a href="docs/coursemanagementDoc.php"></a>Courses</li>
-              <li><a href="docs/gradebookDoc.php"></a>Grades</li>
+              <li><a href="../docs/addquizDoc.php">Adding Quizzes</a></li>
+              <li><a href="../docs/coursemanagementDoc.php">Managing Courses</a></li>
+              <li><a href="../docs/gradebookDoc.php">Gradebook Tutorial</a></li>
             </ul>
+          </div>
           <button type="button" class="btn btn-default" onclick="window.location='../aboutPage.php'">About</button>
-          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-vertical"></span>USERNAME</button>
+          <button type="button" class="btn btn=default" onclick="../php/logout.php">Log Out</button>
         </div>
       </div>
     </div>
@@ -34,11 +36,6 @@
         <h1>Teacher Tools</h1>
       </div>
     </div>
-  </div>
-  <div class="logout" align="right">
-    <form method="POST" action="php/logout.php">
-      <button type="submit">Log Out</button>
-    </form>
   </div>
   <title>QA Teacher</title>
   <div class="current-quizzes"></div>

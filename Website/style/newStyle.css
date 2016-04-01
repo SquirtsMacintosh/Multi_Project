@@ -13,3 +13,8 @@ body {
 .nav.nav-stacked li a.active {
   background: #F2999A;
 }
+
+.nav.nav-stacked li a:hover:not(.active) {
+  background-color: #555;
+  color:white;
+}

@@ -9,7 +9,15 @@
     <div class="row">
       <div class="container-fluid">
         <div class="btn-group pull-right" role="group">
-          <button type="button" class="btn btn-default">Docs</button>
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Docs<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="../docs/addquizDoc.php">Adding Quizzes</a></li>
+              <li><a href="../docs/coursemanagementDoc.php">Managing Courses</a></li>
+              <li><a href="../docs/gradebookDoc.php">Gradebook Tutorial</a></li>
+            </ul>
+          </div>
           <button type="button" class="btn btn-default" onclick="window.location='../aboutPage.php'">About</button>
           <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-vertical"></span>USERNAME</button>
         </div>
@@ -25,6 +33,17 @@
           <li role="presentation"><a href="../contactPage.php">Support</a></li>
         </ul>
         <h1>Add a Quiz</h1>
+        <div class="add-quiz" align="center">
+          <label>Quiz Name</label>
+          <input class="quiz-name" type="text"></input>
+          <div class="date-container" align="center">
+            <label>Date</label>
+            <input id="datepicker" class="quiz-date" type="text"></input>
+          </div><br>
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span>Add</button>
+          <input class="myButton" type="submit" name="back" onclick="window.location='../mainPage.php'" value="BACK"></input>
+          <input class="myButton" type="button" name="submit" value="SUBMIT"></input>
+        </div>
       </div>
     </div>
   </div>
@@ -32,20 +51,5 @@
     <form method="POST" action="../php/logout.php">
       <button type="submit">Log Out</button>
     </form>
-  </div>
-  <div class="header-info" align="center">
-  </div><br><br>
-  <div class="date-container" align="center">
-    <label>Date</label>
-    <input id="datepicker" class="quiz-date" type="text"></input><br><br>
-  </div>
-  <div class="add-quiz" align="center">
-    <label>Quiz Name</label>
-    <input class="quiz-name" type="text"></input><br><br><br><br>
-    <div id="container">
-    </div><br><br>
-    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span>Add</button><br><br><br>
-    <input class="myButton" type="submit" name="back" onclick="window.location='../mainPage.php'" value="BACK"></input>
-    <input class="myButton" type="button" name="submit" value="SUBMIT"></input>
   </div>
 </html>

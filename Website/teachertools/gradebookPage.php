@@ -9,7 +9,15 @@
   <div class="row">
     <div class="container-fluid">
       <div class="btn-group pull-right" role="group">
-        <button type="button" class="btn btn-default">Docs</button>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Docs<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="../docs/addquizDoc.php">Adding Quizzes</a></li>
+            <li><a href="../docs/coursemanagementDoc.php">Managing Courses</a></li>
+            <li><a href="../docs/gradebookDoc.php">Gradebook Tutorial</a></li>
+          </ul>
+        </div>
         <button type="button" class="btn btn-default">About</button>
         <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-vertical"></span>USERNAME</button>
       </div>
