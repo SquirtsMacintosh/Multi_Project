@@ -1,3 +1,4 @@
+<?php include 'php/sessionchecker.php' ?>
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -19,7 +20,7 @@
             </ul>
           </div>
           <button type="button" class="btn btn-default" onclick="window.location='aboutPage.php'">About</button>
-          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-vertical"></span>USERNAME</button>
+          <button type="button" class="btn btn-default" onclick="window.location='../php/logout.php'">Log Out</button>
         </div>
       </div>
     </div>
@@ -53,10 +54,5 @@
       </div>
       </div>
     </div>
-  </div>
-  <div class="logout" align="right">
-    <form method="POST" action="php/logout.php">
-      <button type="submit">Log Out</button>
-    </form>
   </div>
 </html>

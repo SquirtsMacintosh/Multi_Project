@@ -20,7 +20,7 @@
             </ul>
           </div>
           <button type="button" class="btn btn-default" onclick="window.location='../aboutPage.php'">About</button>
-          <button type="button" class="btn btn=default" onclick="../php/logout.php">Log Out</button>
+          <button type="button" class="btn btn-default" onclick="window.location='../php/logout.php'">Log Out</button>
         </div>
       </div>
     </div>
